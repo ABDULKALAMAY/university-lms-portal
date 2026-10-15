@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: university-lms
-          image: abdulkalamay/university-lms-portal:v1.0.0
+          image: abdulkalamay/university-lms-portal:v1.1.0
           ports:
             - containerPort: 80
           readinessProbe:
