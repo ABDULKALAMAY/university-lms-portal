@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: university-lms
-          image: YOUR_DOCKERHUB_USERNAME/university-lms-portal:v1.0.0
+          image: abdulkalamay/university-lms-portal:v1.0.0
           ports:
             - containerPort: 80
 ---
